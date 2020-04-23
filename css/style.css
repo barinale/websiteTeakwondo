@@ -2,6 +2,8 @@
 ul{list-style: none;}
 a{text-decoration: none;font-family: sans-serif;color:white;font-size:1.2em;}
 .container{width:100%;margin:auto;}
+body{height:1500px;}
+/**header STArt----*/
 header{background:blue;max-height:100px;}
 .headerbar{display: flex; width:100%;}
 .headerbar #logo { flex-grow: 1;}
@@ -11,9 +13,36 @@ header{background:blue;max-height:100px;}
 .headerbar .checking img{margin:10px;cursor: pointer;visibility: hidden;}
 .headerbar nav ul{margin-top:10px;;display:flex;justify-content: space-around;width:70%;}
 .headerbar nav ul li{margin-top:25px;}
+/**header fin----*/
+/**section first start*/
+.walpper{background: url(../img/pic2.jpg)  no-repeat;height:500px;background-color:red;
+background-size: 100%;border-bottom:2px solid blue;}
+/*section fen first*/
+/*start legend paper*/
+#Legends{background-color:blue;width:100%;height:830px;overflow: hidden;}
+#Legends header{background:white;text-align: center;padding-top:1.4em;font-family: sans-serif;height:100px;}
+#Legends header h1{font-size:3em;font-family: 'Bangers', cursive;}
+#Legends .paperLegend{width:1000px;margin:auto;margin-top: 1%;height:700px;display: flex;
+ justify-content: space-around;}
+#Legends .paperLegend .portf{position:relative;overflow: hidden;background:red;
+  width:15%;height:650px;transform: rotate(10deg);border:2px solid white;
+}
+#Legends .paperLegend .portf img{transition: transform 1s;}
 
+img[src^="./img/picslide3.jpg"]{position: absolute;right:-390px;}
+img[src^="./img/picslide4.jpg"]{position: absolute;height:120vh;right:-160px;top:-90px;}
+img[src^="./img/picslide5.jpg"]{position: absolute;right:-120px;height:110vh;}
+img[src^="./img/picslide6.jpg"]{position: absolute;left:-480px;height:111vh;}
+img[src^="./img/picslide7.jpg"]{position: absolute;right:-330px;bottom:-10px;height:110vh;}
+img[src^="./img/picslide3.jpg"]:hover,
+img[src^="./img/picslide4.jpg"]:hover,
+img[src^="./img/picslide5.jpg"]:hover,
+img[src^="./img/picslide6.jpg"]:hover,
+img[src^="./img/picslide7.jpg"]:hover{transform:scale(1.2,1.2);}
 
+/*Fin legend paper*/
 @media (max-width:767px) {
+  /*header -----*/
 *{box-sizing: content-box;}
 body{height:1000px;}
 .headerbar .checking {background:red;}
@@ -27,5 +56,5 @@ body{height:1000px;}
 .headerbar nav{margin:0;padding:0;left:0;width:100%;position:absolute;}
 .headerbar nav ul{margin:0;display:block;width:100%;position:fixed;left:10%;}
 .headerbar nav ul li{margin:0;padding:30px ;text-align: center;background:red;}
-
+/**header fin----*/
 }
