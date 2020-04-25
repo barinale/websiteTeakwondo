@@ -30,7 +30,7 @@ background-size: 100%;border-bottom:2px solid blue;}
 #Legends .paperLegend .portf img{transition: transform 1s;}
 
 img[src^="./img/picslide3.jpg"]{position: absolute;right:-390px;}
-img[src^="./img/picslide4.jpg"]{position: absolute;height:120vh;right:-160px;top:-90px;}
+img[src^="./img/picslide4.jpg"]{position: absolute;right:-160px;top:-90px;}
 img[src^="./img/picslide5.jpg"]{position: absolute;right:-120px;height:110vh;}
 img[src^="./img/picslide6.jpg"]{position: absolute;left:-480px;height:111vh;}
 img[src^="./img/picslide7.jpg"]{position: absolute;right:-330px;bottom:-10px;height:110vh;}
