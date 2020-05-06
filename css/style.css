@@ -6,9 +6,9 @@ body{height:1500px;}
 .headerbar input{display:none;}
 .headerbar label{font-size:40px;display:none;}
 
-:root{--main-color:blue;--secoud-color:red;--threed-color:#7AEDFF;--white-color:#fff;}
+:root{--main-color:#0DACF6;--secoud-color:#CF1D60;--threed-color:#7AEDFF;--white-color:#fff;}
 /**header STArt----*/
-header{background:var(--main-color);max-height:100px;}
+header{background:var(--main-color);max-height:100px;border-bottom: 3px solid var(--secoud-color);}
 .headerbar{display: flex; width:100%;}
 .headerbar #logo { flex-grow: 1;}
 .headerbar #logo img{float:right;border-radius: 50%;width:80px;}
@@ -20,8 +20,11 @@ header{background:var(--main-color);max-height:100px;}
 /**header fin----*/
 /**section first start*/
 .walpper{background: url(../img/pic2.jpg)  no-repeat;background-color:red;
-background-size:100% auto;border-bottom:2px solid blue;min-height:400px;}
+background-size:100% auto;border-bottom:2px solid blue;min-height:400px;
+}
+
 /*section fen first*/
+<<<<<<< HEAD
 /*start champoin artcile--------------------*/
 
 #champoin header{display:flex;justify-content: center;align-items: center;height:100px;background :#ccc;}
@@ -40,6 +43,18 @@ background-size:100% auto;border-bottom:2px solid blue;min-height:400px;}
 
 
 /*Fin chamopin article-------------------*/
+=======
+/*champoin*/
+#champoin{background:var(--white-color);}
+#champoin .container{overflow: hidden;width:80%;margin: auto;display:
+  grid;grid-template-columns: : 50px 50px 50px:}
+#champoin .container .portful{width:100px;overflow: hidden;}
+
+
+
+/*Fin champoin*/
+
+>>>>>>> 73e33d35551d8327245bbe0dc86d86d5a164c424
 /*start legend paper*/
 #Legends{background-color:var(--main-color);width:100%;height:830px;overflow: hidden;}
 #Legends header{background:white;text-align: center;padding-top:1.4em;font-family: sans-serif;min-height:100px;
